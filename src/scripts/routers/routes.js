@@ -1,4 +1,5 @@
 angular.module('app.routers', [
-	'home.router',
-	'about.router',
+    'home.router',
+    'about.router',
+    'product.router',
 ])

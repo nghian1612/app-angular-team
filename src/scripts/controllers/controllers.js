@@ -1,6 +1,7 @@
 angular.module('app.controllers', [
-	'main.controller',
-	'menu.controller',
-	'home.controller',
-	'about.controller',
+    'main.controller',
+    'menu.controller',
+    'home.controller',
+    'about.controller',
+    'product.controller',
 ])
