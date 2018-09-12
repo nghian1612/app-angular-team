@@ -1,3 +1,6 @@
-.row
-	.col
-		p {{data}}
+
+ul.nav.nav-pills.mb-4
+	li.nav-item(ng-repeat="item in data") 
+		a(ng-click="den()").nav-link(ui-sref="{{item.icon}}" ui-sref-active="active") 
+			| {{item.desc}}
+

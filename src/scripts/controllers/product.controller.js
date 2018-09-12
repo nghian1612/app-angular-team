@@ -3,10 +3,14 @@ angular.module('product.controller', []).controller("ProductController", _produc
 function _productController($scope, $http) {
     $http({
         method: 'GET', // POST, PUT, DELETE
-        url: 'https://www.w3schools.com/angular/customers.php',
+        url: '/db/product.json',
     }).then(function(response) {
-        $scope.data = eval(response.data.records);
+        $scope.data = eval(response.data.product);
     }, function(error) {
         console.log('Lỗi 003 - Product: ' + error);
     });
+
+    $scope.den = function() {
+        console.log(1)
+    }
 }

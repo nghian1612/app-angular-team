@@ -1,0 +1,28 @@
+{
+    "product": [{
+        "id": 1,
+        "name": "Trang chủ",
+        "desc": "home",
+        "icon": "fa-home"
+    }, {
+        "id": 2,
+        "name": "Gian hàng",
+        "desc": "shop",
+        "icon": "fa-shopping-cart"
+    }, {
+        "id": 3,
+        "name": "Dịch vụ",
+        "desc": "service",
+        "icon": "fa-coffee"
+    }, {
+        "id": 4,
+        "name": "Về chúng tôi",
+        "desc": "about",
+        "icon": "fa-archive"
+    }, {
+        "id": 5,
+        "name": "Liên hệ",
+        "desc": "contact",
+        "icon": "fa-at"
+    }]
+}
